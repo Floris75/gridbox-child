@@ -1,0 +1,16 @@
+/*
+ Theme Name:   Gridbox Child
+ Description:  Gridbox Child Theme
+ Author:       Floris
+ Template:     gridbox
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+:root {
+	--header-background-color: #674c45;
+	--footer-background-color: #674c45;
+	--link-color: #674c45;
+	--link-hover-color: #000000; 
+}
