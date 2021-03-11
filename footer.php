@@ -18,7 +18,7 @@
 		<footer id="colophon" class="site-footer container clearfix" role="contentinfo">
 
 			<div id="footer-text" class="site-info">
-				<?php do_action( 'gridbox_footer_text' ); ?>
+			<?php echo esc_html( get_theme_mod('gridbox_child_sponsor_info_text_footer') ); ?>
 			</div><!-- .site-info -->
 			
 			<?php do_action( 'gridbox_footer_menu' ); ?>

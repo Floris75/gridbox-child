@@ -14,3 +14,18 @@
 	--link-color: #674c45;
 	--link-hover-color: #000000; 
 }
+
+.sponsor-info a {
+    display: inline-block;
+    background: #9a7870;
+    color: white;
+    padding: 1rem;
+    box-shadow: .25rem .25rem 0 var(--header-background-color);
+    margin-bottom: 2rem;
+    transition: .5s;
+}
+
+.sponsor-info a:hover {
+    box-shadow: 0 0 0 var(--header-background-color);
+    background-color: var(--header-background-color);
+}
